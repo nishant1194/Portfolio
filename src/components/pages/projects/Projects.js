@@ -25,10 +25,10 @@ function Projects() {
             </ul>
             <ul className="techss">
               <li className="techitemss">
-                <a href="https://weather-wave-seven.vercel.app/">Demo</a>
+                <a href="https://weather-wave-seven.vercel.app/" target="_blank">Demo</a>
               </li>
               <li className="techitemss">
-                <a href="https://github.com/nishant1194/weatherWave">Source</a>
+                <a href="https://github.com/nishant1194/weatherWave" target="_blank">Source</a>
               </li>
             </ul>
           </div>
@@ -49,10 +49,10 @@ function Projects() {
             </ul>
             <ul className="techss">
               <li className="techitemss">
-                <a href="https://iit-rsf.vercel.app/">Demo</a>
+                <a href="https://iit-rsf.vercel.app/" target="_blank">Demo</a>
               </li>
               <li className="techitemss">
-                <a href="https://github.com/nishant1194/IIT_">Source</a>
+                <a href="https://github.com/nishant1194/IIT_" target="_blank">Source</a>
               </li>
             </ul>
           </div>
@@ -73,8 +73,8 @@ function Projects() {
               {/*  <li className='techitems'>tech1</li> */}
             </ul>
             <ul className="techss">
-              <li className="techitemss"><a href="https://blog-app-neew.vercel.app/">Demo</a></li>
-              <li className="techitemss"><a href="https://github.com/nishant1194/blogApp">Source</a></li>
+              <li className="techitemss"><a href="https://blog-app-neew.vercel.app/" target="_blank">Demo</a></li>
+              <li className="techitemss"><a href="https://github.com/nishant1194/blogApp" target="_blank">Source</a></li>
             </ul>
           </div>
         </div>
