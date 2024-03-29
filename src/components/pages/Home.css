@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+}
+
+.booox{
+    background-color: rgb(11, 19, 56);
+    z-index: -12;
+}
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content :space-between;
+    color: white;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.divv1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index:1 ;
+    width: 100%;
+
+}
+
+.divv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgP{
+    border-radius: 100% ;
+    height: 100%;
+    width: 100%;
+}
+.titlee{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 33px;
+    
+}
+.desc{
+    font-size: 30px;
+    margin-bottom: 52px;
+}
+
+.contactBtn{
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    background-color: #576cbc;
+}
+
+.imgP:hover{
+    transform: scale(1.005);
+    transition-duration: 0.07s;
+}
+
+@media screen and (max-width: 830px) {
+   .mainBox{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .divv1{
+        align-items: center;
+    }
+    
+    
+}
+
+@media screen and (max-width: 400px){
+  
+    .titlee{
+        font-size: 60px;
+    }
+    
+}
+
+

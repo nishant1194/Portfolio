@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+     color: antiquewhite;
+}
+
+
+
+.mianC{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 77);
+    padding: 40px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.titlde{
+    font-size: 60px;
+    padding: 40px 0px 5px 0px;
+}
+
+.reach{
+    font-size: 30px;
+
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.mailll{
+    padding: 0;
+}
+
+
+@media screen and (max-width:700px) {
+    .mianC{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+    .hidden{
+        display: none;
+    }
+    .mail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+    .titlde{
+        text-align: center;
+    }
+    .reach{
+        text-align: center;
+      
+    }
+}

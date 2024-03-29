@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+     color: antiquewhite;
+}
+
+
+.containere{
+    position: relative;
+    background-color: rgb(11, 19, 56);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 1px;
+}
+
+.contente{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutItemse{
+   list-style: none;
+}
+
+.aboutItemTexte{
+    background-color: rgb(12, 13, 34);
+    padding: 10px 10px 10px 10px ;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+   
+}
+
+.aboutIteme{
+    align-items: center;
+}
+
+.ttilee{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 2%;
+
+}
+.disccpe{
+    padding:0px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 30px;
+}
+.skillImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.tittllee{
+    text-align: center;
+    font-size: 50px;
+    margin: 5%;
+
+}
+.tittlleee{
+    text-align: center;
+    font-size: 45px;
+    margin: 5%;
+}
+
+
+.skillItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills{
+    width: 100%;
+}
+
+.skillS{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.porr{
+    width: 100%;
+
+}
+@media screen and (max-width: 770px){
+    .containere{
+        padding: 10px;
+    }
+    .contente{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutItemse{
+
+        margin: 0;
+        padding: 0;
+    }
+  
+}
+
+@media screen and (max-width: 400px){
+  
+    .skillImg{
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+    .skillItem{
+        margin: 4%;
+        padding: 0;
+    }
+    .aboutItemse{
+        margin:0;
+        padding: 0;
+    }
+    .tittlleee{
+        font-size:35px ;
+    }
+    .skillS{
+        padding: 0;
+        margin: 20px;
+    }
+  .disccpe{
+    margin:0;
+    padding: 0;
+  }
+  .aboutItemTexte{
+   margin:20px
+  }
+    
+}
+

@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+     color: antiquewhite;
+}
+
+.tlle{
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin: 0;
+    font-size: 50px;
+
+
+}
+
+
+.cardImg{
+   width: 100%;
+    border-radius: 10px;
+
+}
+.card{
+    background-color: #142a53;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 24px;
+    width: 30% ;
+}
+.project{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.techs{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.techitems{
+    font-size: larger;
+    background-color: #243461;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 20px;
+    font-size: medium;
+}
+.techss{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.techitemss{
+    font-size: larger;
+    background-color: #576dbd; 
+    padding: 2px 10px 2px 10px  ;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+   .project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .tlle{
+   text-align: center;}
+   .card{
+    width: 80% ;
+}
+
+}
+
+/* @media screen and (max-width: 400px){
+  
+    .titlee{
+        font-size: 60px;
+    }
+    
+} */
