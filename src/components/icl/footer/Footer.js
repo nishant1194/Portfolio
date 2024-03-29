@@ -1,11 +1,13 @@
 import React from 'react'
 import '../footer/Footer.css'
 import icon from '../../images/icons/menuIcon.svg'
-
+import gmailIcon from '../../images/icons/emailIcon.png'
+import linkedInIcon from '../../images/icons/linkedinIcon.png'
+import githubIcon from '../../images/icons/githubIcon.png'
 function Footer() {
   return (
     <div>
-      <div className="mianC">
+      <div className="mianC" id='contact'>
         <div className="left">
             <div className="titlde">Contact</div>
             <div className="reach">Feel free to reach out</div>
@@ -13,22 +15,20 @@ function Footer() {
         <div className="rightt">
             <ul className='mailll'>
             <li className='mail'>
-                <img src={icon} alt="..." className=''/>          
-                      <img src={icon} alt="..." className='' style={{visibility:"hidden"}}/>
+                <img src={gmailIcon} alt="..." className='iconfotr'/>          
 
-                <p>alphaalpha@gmail.com</p>
+                <p>nishantrpr94@gmail.com</p>
             </li>
             <li className='mail'>
-                <img src={icon} alt="..." className=''/>          
-                      <img src={icon} alt="..." className='' style={{visibility:"hidden"}}/>
+                <img src={linkedInIcon} alt="..." className='iconfotr'/>          
 
-                <p>alphaalpha@gmail.com</p>
+                <a href='https://www.linkedin.com/in/nishant-428476256/'>LinkedIn</a>
             </li>
             <li className='mail'>
-                <img src={icon} alt="..." className=''/>          
-                      <img src={icon} alt="..." className='' style={{visibility:"hidden"}}/>
+                <img src={githubIcon} alt="..." className='iconfotr'/>          
+                     
 
-                <p>alphaalpha@gmail.com</p>
+                <a href='https://github.com/nishant1194'>Github</a>
             </li>
            
             </ul>

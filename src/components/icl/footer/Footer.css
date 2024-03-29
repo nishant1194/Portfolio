@@ -15,16 +15,18 @@
     justify-content: space-around;
     background-color: rgb(49, 49, 77);
     padding: 40px;
+    align-items: center;
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    padding: 40px 0px 45px 0px;
+
 }
 
 .titlde{
     font-size: 60px;
-    padding: 40px 0px 5px 0px;
 }
 
 .reach{
@@ -34,14 +36,18 @@
 
 .mail{
     display: flex;
-    justify-content: space-between;
     font-size: 20px;
+    margin: 20px;
+    align-items: center;
 }
 .mailll{
     padding: 0;
 }
 
 
+.iconfotr{
+    margin-right: 30px;
+}
 @media screen and (max-width:700px) {
     .mianC{
         display: flex;

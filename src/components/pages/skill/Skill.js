@@ -14,7 +14,7 @@ import java from '../../images/logos/java.svg'
 function Skill() {
   return (
     <div>
-       <section className='containere'>
+       <section className='containere' id='skills'>
         <div className='contente'>
              <div className="skills">
              <h1 className='tittllee'>Skills</h1>

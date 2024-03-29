@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from '../icl/Navbar'
-import arnav from '../images/imgs/Arnav.jpeg'
+
 import '../pages/Home.css'
 import NishantImg from '../images/imgs/Nishant.JPG'
 

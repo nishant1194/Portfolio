@@ -3,13 +3,13 @@ import Navbar from '../../icl/Navbar'
 import '../about/About.css'
 import abc from '../../images/imgs/img.png'
 import NishantImgg from '../../images/imgs/Nishant.JPG'
+import Footer from '../../icl/footer/Footer'
 
 
 function About() {
   return (
-    <div>
-        
-      <section className='container'>
+    <div>        
+      <section className='container' id='about'>
         <h2 className='tittlle'>ABOUT ME</h2>
         <div className='content'>
             <img src={abc} alt="..."  className='aboutImg'/>

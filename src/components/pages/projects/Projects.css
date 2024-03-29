@@ -36,6 +36,7 @@
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10px;
 
 }
 
@@ -46,6 +47,7 @@
     padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
 }
 
 .techitems{
@@ -70,6 +72,10 @@
     padding: 2px 10px 2px 10px  ;
     border-radius: 20px;
     font-size: 25px;
+}
+
+.projectTitle{
+    margin: 10px 0px 10px 0px ;
 }
 
 @media screen and (max-width: 830px) {
