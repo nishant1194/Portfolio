@@ -28,7 +28,7 @@ function Projects() {
             <ul className="techss">
               <li className="techitemss">
                 <a
-                  href="https://weather-wave-seven.vercel.app/"
+                  href="https://weather-wave-project.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
