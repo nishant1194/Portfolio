@@ -23,3 +23,8 @@ function App() {
 }
 
 export default App;
+
+// git fetch origin 
+// git add .           
+// git commit -m "Resolved merge conflicts"
+// git push origin main
