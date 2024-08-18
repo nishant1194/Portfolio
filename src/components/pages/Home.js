@@ -13,7 +13,7 @@ function Home() {
       <p className='desc'>I am a full stack developer.<br /> I develope webApps using MERN stack.<br />I also made mobile Apps with React-Native.</p> 
      <div >
 
-      <span className='contactBtn'> <a href="#contact">Contact me</a></span>
+      <span className='contactBtn'> <a href="#contact">Contact Me</a></span>
        <span className='contactBtn'style={{margin:"0px 50px "}} > <a href="https://drive.google.com/file/d/1vLluE4SAkoSCQkU36ZVK7XX3JKWz_w3t/view?usp=sharing" target='blank'>Resume</a> </span>
      </div>
     </div>
@@ -21,7 +21,6 @@ function Home() {
       <img src={NishantImg} alt="" className='imgP'/>
     </div>
     </div>
-
 
     </div>
   )

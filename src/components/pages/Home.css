@@ -69,7 +69,7 @@
     border-radius: 100px;
     font-size: 30px;
     font-weight: 600;
-    padding: 17px 26px;
+    padding: 11px 26px 17px 26px;
     background-color: #576cbc;
     font-family: "Outfit", Arial, Helvetica, sans-serif;
 
@@ -95,12 +95,30 @@
     
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   
     .titlee{
         font-size: 60px;
     }
+    .contactBtn{
+        display: block;
+        padding: 17px 20px;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+    .desc{
+        margin: 0px 0px 30px 0px;
+    }
     
+}
+
+@media screen and (max-width: 500px){
+    .contactBtn{
+        display: block;
+        padding: 17px 20px;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
 }
 
 
