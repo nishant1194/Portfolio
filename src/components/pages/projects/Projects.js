@@ -93,7 +93,7 @@ function Projects() {
               this project.
             </p>{" "}
             <ul className="techs">
-              <li className="techitems">MERN Stack</li>
+              <li className="techitems">MERN</li>
               <li className="techitems">Material UI</li>
               <li className="techitems">JS</li>
               {/*  <li className='techitems'>tech1</li> */}

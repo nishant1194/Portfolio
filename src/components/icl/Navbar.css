@@ -2,27 +2,34 @@
 
 
 .navvu{
-    font-family: "Roboto", sans-serif;
+    font-family: "Outfit";
+
     font-style: normal;
-    background-color: rgb(13,15,31);
+    background-color: #0b1338;
     padding: 15px 0 15px 0;
+    position: relative;
+    z-index: 2;
+    padding: 40px 10px 0px 10px;
 
 }
 
 .navbar{
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content :space-between;
     margin: 0 10% 0 10%;
+        z-index: 2;
+
 }
 
 .title{
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
     text-decoration:none;
     color:rgb(255, 255, 255);
-    
-  
     
 }
 
@@ -35,7 +42,13 @@
     gap: 47px;
     list-style: none;
     color: #ffffff;
-    font-size: larger;
+    font-size: 25px;
+    /* font-weight: 600; */
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+
+
 }
 
 .menuIcon{
@@ -74,6 +87,7 @@ color: #ffffff;   }
     margin: 0px;
     padding: 10px ;
     align-items: center;
+    z-index: 7;
   
 }
 .ItemM{
@@ -84,7 +98,13 @@ color: #ffffff;   }
 
 .title:hover{
   
-   transform: scale(1.02);
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
 }
 
 
@@ -93,4 +113,6 @@ color: #ffffff;   }
 
 a{
     text-decoration: none;
+   
+    font-size: 26px;
 }

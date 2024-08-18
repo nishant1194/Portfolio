@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
 
 
-*{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-     color: antiquewhite;
-}
-
 .tlle{
     padding-left: 12%;
     padding-right: 10%;
@@ -15,8 +9,7 @@
     padding-bottom: 2%;
     margin: 0;
     font-size: 50px;
-
-
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
 
@@ -27,11 +20,17 @@
 
 }
 .card{
+    
     background-color: #142a53;
     margin: 20px;
     border-radius: 10px;
     padding: 24px;
     width: 30% ;
+}
+.card:hover{
+    background: linear-gradient(to right , #142a53 ,  #0b1338);
+    transform: scale(1.05);
+    transition-duration: 0.8s;
 }
 .project{
     display: flex;
@@ -54,7 +53,7 @@
 .techitems{
     font-size: larger;
     background-color: #243461;
-    padding: 5px 10px 5px 10px ;
+    padding: 5px 15px 5px 15px ;
     border-radius: 20px;
     font-size: medium;
 }
@@ -66,13 +65,18 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.techitemss:hover{
+    transform: scale(1.09);
+    transition-duration: 0.1s;
+}
 
 .techitemss{
     font-size: larger;
     background-color: #576dbd; 
     padding: 2px 10px 2px 10px  ;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 25px ;
+    padding: 5px 25px 5px 25px;
 }
 
 .projectTitle{

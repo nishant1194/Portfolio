@@ -17,7 +17,7 @@ function Footer() {
             <li className='mail'>
                 <img src={gmailIcon} alt="..." className='iconfotr'/>          
 
-                <p>nishantrpr94@gmail.com</p>
+                <a href='mailto:nishantrpr1194@gmail.com'>Gmail   </a>
             </li>
             <li className='mail'>
                 <img src={linkedInIcon} alt="..." className='iconfotr'/>          

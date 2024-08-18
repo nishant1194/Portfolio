@@ -2,18 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
 
 
-*{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-     color: antiquewhite;
-}
-
 
 .containere{
     position: relative;
     background-color: rgb(11, 19, 56);
     border-radius: 15px;
-    padding: 73px;
+    padding: 0px 73px;
     margin-top: 1px;
 }
 
@@ -28,13 +22,22 @@
 
 .aboutItemTexte{
     background-color: rgb(12, 13, 34);
-    padding: 10px 10px 10px 10px ;
+    padding: 10px 10px 30px 10px ;
     border-radius: 30px;
     margin-bottom: 20px;
 
    
 }
+.aboutItemTexte:hover{
+    background: linear-gradient(to right , rgba(44, 44, 44, 0.684) ,  rgb(12, 13, 34));
+    transform: scale(1.01);
+    transition-duration: 0.1s;
+}
+.skillItem:hover{
+    transform: scale(1.09);
+    transition-duration: 0.6s;
 
+}
 .aboutIteme{
     align-items: center;
 }
