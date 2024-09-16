@@ -37,7 +37,7 @@ function Projects() {
               </li>
               <li className="techitemss">
                 <a
-                  href="https://github.com/nishant1194/weatherWave"
+                  href="https://github.com/nishant1194/weather-wave"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
