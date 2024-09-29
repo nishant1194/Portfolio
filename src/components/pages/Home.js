@@ -14,7 +14,7 @@ function Home() {
      <div >
 
       <span className='contactBtn'> <a href="#contact">Contact Me</a></span>
-       <span className='contactBtn'style={{margin:"0px 50px "}} > <a href="https://drive.google.com/file/d/1vLluE4SAkoSCQkU36ZVK7XX3JKWz_w3t/view?usp=sharing" target='blank'>Resume</a> </span>
+       <span className='contactBtn'style={{margin:"0px 50px "}} > <a href="https://drive.google.com/file/d/1BooSpofpNEeSKnGiwXKwMbPl_ydu5JwF/view?usp=sharing" target='blank'>Resume</a> </span>
      </div>
     </div>
     <div className='divv2'>
