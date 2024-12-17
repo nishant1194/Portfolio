@@ -11,7 +11,11 @@
     font-size: 50px;
     font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
+.tlle:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
 
+}
 
 .cardImg{
    width: 100%;

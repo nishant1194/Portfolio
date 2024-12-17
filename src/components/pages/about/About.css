@@ -9,6 +9,8 @@
     /* border-radius: 15px; */
     padding: 50px 73px;
     /* margin-top: 1px; */
+    display: flex;
+    flex-direction: column;
 }
 
 .tittlle{
@@ -17,7 +19,11 @@
     font-family: "Outfit", Arial, Helvetica, sans-serif;
 
 }
+.tittlle:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
 
+}
 
 .content{
     display: flex;
@@ -46,8 +52,8 @@
 }
 .aboutItemText:hover{
     background: linear-gradient(to right , rgba(44, 44, 44, 0.684) ,  rgb(12, 13, 34));
-    transform: scale(1.01);
-    transition-duration: 0.1s;
+    transform: scale(1.07);
+    transition-duration: 0.7s;
 }
 
 .aboutItem{

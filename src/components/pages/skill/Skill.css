@@ -30,12 +30,12 @@
 }
 .aboutItemTexte:hover{
     background: linear-gradient(to right , rgba(44, 44, 44, 0.684) ,  rgb(12, 13, 34));
-    transform: scale(1.01);
-    transition-duration: 0.1s;
+    transform: scale(1.07);
+    transition-duration: 0.7s;
 }
 .skillItem:hover{
-    transform: scale(1.09);
-    transition-duration: 0.6s;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
 
 }
 .aboutIteme{
@@ -47,6 +47,15 @@
     font-size: 25px;
     font-weight: 400;
     margin: 2%;
+}
+.tittllee:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+
+}
+.tittlleee:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
 
 }
 .disccpe{
