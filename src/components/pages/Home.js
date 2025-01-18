@@ -2,7 +2,7 @@ import React from "react";
 
 import "../pages/Home.css";
 import NishantImg from "../images/imgs/Nishant.JPG";
-import NishantImgg from "../images/imgs/NishantBackgroung.png";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
@@ -10,12 +10,26 @@ function Home() {
       <div className="mainBox">
         <div className="divv1">
           <h1 className="titlee">
-            Hi, I’m Nishant 
+            Hi, I'm{" "}
+          <span style={{color:"red"}}>  <Typewriter
+              onInit={(typewriter) => {
+                const loopAnimation = () => {
+                  typewriter
+                    .typeString('<span style="color:#02c3fc;">Nishant</span>')
+                    .pauseFor(2000)
+                    .start();
+                 };
+                 loopAnimation();
+               
+               }}
+            />
+            </span>
           </h1>
-          <p className="desc">
-          I am a full-stack developer.<br />
-            I develop web apps using the MERN stack.<br />
-            I also build mobile apps with React Native.
+          <p className="desc" >
+            I am a full-stack web developer.
+             <br />
+            I develop web apps using the MERN stack.
+            <br />I build mobile apps with React Native.
           </p>
           <div className="buttons">
             <a href="#contact" className="button contact-button">
