@@ -47,10 +47,13 @@
     font-size: 25px;
     font-weight: 400;
     margin: 2%;
+    color: #ffffff;
+
 }
 .tittllee:hover{
     transform: translateY(-5px);
     transition-duration: 0.5s;
+    color: #ffffff;
 
 }
 .tittlleee:hover{
@@ -63,6 +66,8 @@
     font-size: 20px;
     font-weight: 350;
     line-height: 30px;
+    color: #ffffff;
+
 }
 .skillImg{
     width: 100px;
@@ -75,12 +80,15 @@
     text-align: center;
     font-size: 50px;
     margin: 5%;
+    color: #ffffff;
+
 
 }
 .tittlleee{
     text-align: center;
     font-size: 45px;
     margin: 5%;
+    color: #ffffff;
 }
 
 
@@ -88,6 +96,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.skillText{
+    color: #ffffff;
+
 }
 
 .skills{
@@ -136,6 +149,8 @@
     }
     .tittlleee{
         font-size:35px ;
+        color: #ffffff;
+
     }
     .skillS{
         padding: 0;

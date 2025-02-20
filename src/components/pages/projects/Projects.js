@@ -14,7 +14,7 @@ function Projects() {
           <div className="card">
             <img src={weatherWaveImg} alt="..." className="cardImg" />
             <h2 className="projectTitle">WeatherWave</h2>
-            <p>
+            <p className="discPro">
               Designed and developed a cutting-edge weather tracking app,
               delivering real-time forecasts and intuitive user interfaces for
               enhanced weather awareness.
@@ -50,7 +50,7 @@ function Projects() {
           <div className="card">
             <img src={rsfImg} alt="..." className="cardImg" />
             <h2 className="projectTitle"> RSF-EE WEBSITE </h2>
-            <p>
+            <p className="discPro">
               Engineered a comprehensive website for the EE-RSF Society at our
               college. I have implemented dynamic features, organiz- -ed content
               on websites.
@@ -86,7 +86,7 @@ function Projects() {
           <div className="card">
             <img src={blogImg} alt="..." className="cardImg" />
             <h2 className="projectTitle"> BlogApp</h2>
-            <p>
+            <p className="discPro">
               {" "}
               I've built a React.js frontend for a blog app, offering seamless
               navigation and interaction. Still I am working on the backend of

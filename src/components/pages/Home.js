@@ -3,7 +3,7 @@ import React from "react";
 import "../pages/Home.css";
 import NishantImg from "../images/imgs/Nishant.JPG";
 import Typewriter from "typewriter-effect";
-
+ 
 function Home() {
   return (
     <div className="booox">
@@ -32,8 +32,10 @@ function Home() {
             <br />I build mobile apps with React Native.
           </p>
           <div className="buttons">
+            
             <a href="#contact" className="button contact-button">
               Contact Me
+             
             </a>
             <a
               href="https://drive.google.com/file/d/1BooSpofpNEeSKnGiwXKwMbPl_ydu5JwF/view?usp=sharing"
@@ -49,6 +51,7 @@ function Home() {
           <img src={NishantImg} alt="" className="imgP" />
         </div>
       </div>
+      
     </div>
   );
 }

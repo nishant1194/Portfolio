@@ -56,6 +56,8 @@
     /* font-size: 70px;
     font-weight: 600;
     margin-bottom: 33px; */
+    color: #ffffff;
+
     font-size: 3.5rem;
   margin-bottom: 20px;
   font-weight: 700;
@@ -69,8 +71,11 @@
     margin-bottom: 52px;
     font-family: "Outfit", Arial, Helvetica, sans-serif;
     line-height: 30px;
+    color: #ffffff;
+
 }
 .titlee:hover {
+  color: #ffffff;
     transform: translateY(-4px);
       transition-duration: 0.4s;
 }
