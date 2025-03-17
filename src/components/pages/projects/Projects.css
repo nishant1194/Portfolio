@@ -26,12 +26,11 @@
 
 }
 .card{
-    
     background-color: #142a53;
     margin: 20px;
     border-radius: 10px;
     padding: 24px;
-    width: 30% ;
+    width: 280px ;
 }
 .card:hover{
     background: linear-gradient(to right , #142a53 ,  #0b1338);
@@ -43,7 +42,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10px;
-
+    flex-wrap: wrap;
 }
 
 .techs{
@@ -59,7 +58,7 @@
 .techitems{
     font-size: larger;
     background-color: #243461;
-    padding: 5px 15px 5px 15px ;
+    padding: 4px 12px 5px 12px ;
     border-radius: 20px;
     font-size: medium;
     color: #ffffff;

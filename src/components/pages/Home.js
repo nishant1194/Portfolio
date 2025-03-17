@@ -38,7 +38,7 @@ function Home() {
              
             </a>
             <a
-              href="https://drive.google.com/file/d/1BooSpofpNEeSKnGiwXKwMbPl_ydu5JwF/view?usp=sharing"
+              href="https://drive.google.com/file/d/1y6P1dKq60hz5u9FAEHrfCFO4pyb0Zg6Z/view?usp=sharing"
               className="button resume-button"
               target="_blank"
               rel="noopener noreferrer"

@@ -19,19 +19,6 @@ const router = createBrowserRouter([
     element: <App />,
 
   },
-
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/skills",
-    element: <Skill />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-  },
   {
     path: "/contact",
     element: <Footer />,

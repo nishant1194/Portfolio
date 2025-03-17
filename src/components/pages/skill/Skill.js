@@ -1,6 +1,5 @@
 import React from "react";
 import "../skill/Skill.css";
-import abc from "../../images/imgs/Arnav.jpeg";
 import Nodejs from "../../images/logos/nodeJs.png";
 import JavaScript from "../../images/logos/javascript.png";
 import HtmlCssJs from "../../images/logos/htmlCssJs.png";
