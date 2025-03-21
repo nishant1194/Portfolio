@@ -12,6 +12,7 @@ function Projects() {
     
     {
       tittle: "Short.ly (Url utility)",
+      
       description:
         "Engineered a cross-platform URL shortener with QR generator/scanner (web, mobile app, Chrome extension) using MERN stack, React-Native and Manifest V3",
         skills:["MERN","ReactNative","Manifest"],
