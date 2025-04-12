@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import './App.css';
 import Navbar from './components/icl/Navbar';
 import Footer from './components/icl/footer/Footer';
